@@ -1,8 +1,10 @@
 /*current issues:
     1. logo and donate/search button are not aligned
-    2. volunteer link button content are not centered
-    3. .rampbuildingvolunteers p and .otheropportunities p need to be justified with titles
-    4. need space b/w "email address" and search bar*/
+    2. add more space b/w nav bar and "volunteer" title
+    3. three volunteer link button content are not centered
+    4. .rampbuildingvolunteers p and .otheropportunities p need to be left justified with titles
+    5. need space b/w "email address" and search bar
+    6. need lines b/w each quadrant in footer*/
 
 body{
     background-color: white;
