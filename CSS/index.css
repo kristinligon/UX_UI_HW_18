@@ -1,10 +1,9 @@
 /*current issues:
     1. logo and donate/search button are not aligned
     2. add more space b/w nav bar and "volunteer" title
-    3. three volunteer link button content are not centered
     4. .rampbuildingvolunteers p and .otheropportunities p need to be left justified with titles
     5. need space b/w "email address" and search bar
-    6. need lines b/w each quadrant in footer*/
+    6. look into newsletter on w3c/ google*/
 
 body{
     background-color: white;
@@ -23,10 +22,10 @@ header{
     width: 100%;
 }
 
-.Logo img{
+.Logo {
     margin-top: 25px;
     margin-left: 20px;
-    margin: bottom 0;;
+    margin-bottom:auto 0;
     width: 150px;
     height: 100px;
 }
@@ -130,6 +129,7 @@ header{
     justify-content: space-evenly;
     width: 100%;
     margin: 25px;
+    text-align: center;
 }
 
 .volunteerlinks h3{
@@ -143,28 +143,35 @@ header{
     width: 200px;
 }
 
-.rampbuildingvolunteers {
-    font-size: 25px;
+.rampbuilding {
+    font-size: 20px;
     padding-left: 30px;
     /*display: flex*/
 }
 
-.rampbuildingvolunteers p{
+.rampbuilding p{
+    color: black;
+    font-weight: 400; 
     font-size: 15px;
-    padding-left: 50px;
-    /*justify-content: space-between;*/
-}
-
-p .otheropportunities p{
-    font-size: 15px;
-    padding-left: 50px;
-    /*margin-bottom: 50px;*/
-    /*justify-content: space-between;*/
+    display: center;
+    margin-left: 5%;
+    /*font-size: 15px;
+    padding: 30px;
+    margin-left: 5%;
+    justify-content: space-between;*/
 }
 
 .otheropportunities{
     font-size: 25px;
     padding-left: 30px;
+}
+
+p .otheropportunities p{
+    font-size: 15px;
+    margin-left: 5%;
+    /*padding: 30px;
+    margin-bottom: 50px;*/
+    /*justify-content: space-between;*/
 }
 
 .newsletter{
