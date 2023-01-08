@@ -1,9 +1,5 @@
-/*current issues:
-    1. logo and donate/search button are not aligned
-    2. add more space b/w nav bar and "volunteer" title
-    4. .rampbuildingvolunteers p and .otheropportunities p need to be left justified with titles
-    5. need space b/w "email address" and search bar
-    6. look into newsletter on w3c/ google*/
+/*current issues: 
+n/a*/
 
 body{
     background-color: white;
@@ -36,6 +32,7 @@ header{
     justify-content: flex-end;
     margin-right: 30px;
     margin-top: auto;
+    width: 100%;
 }
 
 .donatebutton {
@@ -352,4 +349,23 @@ footer{
     font-weight: 400;
     color: black;
     text-align: center;
+}
+
+/*@media all (min-width: 600px) {
+}
+    .topnavbar{
+    width: 100%;
+}
+
+    .navbar{
+    width: 100%;
+}
+
+    .navbarbuttons{
+    width: 100%;
+} 
+
+    .main img{
+    width: 100%;
+}
 }
